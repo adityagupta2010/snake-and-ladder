@@ -39,3 +39,4 @@ class SnakeAndLadder:
 # To play the game
 game = SnakeAndLadder()
 game.play_game()
+
