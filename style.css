@@ -56,6 +56,12 @@ h1 {
     font-size: 20px;
 }
 
+/* Player's position styling */
+.square.yellow {
+    background-color: yellow !important;
+    font-weight: bold;
+}
+
 button {
     margin: 20px;
     padding: 10px 20px;
