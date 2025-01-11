@@ -20,7 +20,7 @@ document.addEventListener("DOMContentLoaded", () => {
         square.textContent = i;
         square.classList.add("square");
 
-        // Style for snakes
+        // Add snake styling and icon
         if (snakes[i]) {
             square.classList.add("snake");
             const snakeIcon = document.createElement("span");
@@ -29,7 +29,7 @@ document.addEventListener("DOMContentLoaded", () => {
             square.appendChild(snakeIcon);
         }
         
-        // Style for ladders
+        // Add ladder styling and icon
         if (ladders[i]) {
             square.classList.add("ladder");
             const ladderIcon = document.createElement("span");
