@@ -23,13 +23,21 @@ document.addEventListener("DOMContentLoaded", () => {
         // Style for snakes
         if (snakes[i]) {
             square.classList.add("snake");
+            const snakeIcon = document.createElement("span");
+            snakeIcon.textContent = "🐍";  // Snake emoji
+            snakeIcon.classList.add("snake-icon");
+            square.appendChild(snakeIcon);
         }
         
         // Style for ladders
         if (ladders[i]) {
             square.classList.add("ladder");
+            const ladderIcon = document.createElement("span");
+            ladderIcon.textContent = "🪜";  // Ladder emoji
+            ladderIcon.classList.add("ladder-icon");
+            square.appendChild(ladderIcon);
         }
-        
+
         // Append the square to the board
         board.appendChild(square);
     }
