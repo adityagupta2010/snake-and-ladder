@@ -5,10 +5,10 @@ document.addEventListener("DOMContentLoaded", () => {
 
     let playerPosition = 0;
 
-    // Snakes and ladders positions
+    // Harder snakes and ladders positions
     const snakes = {
         16: 6, 47: 26, 49: 11, 56: 53, 62: 19, 64: 60, 87: 24, 93: 73, 95: 75, 98: 78,
-        89: 52, 92: 50  // Added longer snakes for difficulty
+        89: 52, 92: 50, 67: 33, 80: 1, 54: 3, 75: 55  // Added more severe snakes
     };
 
     const ladders = {
